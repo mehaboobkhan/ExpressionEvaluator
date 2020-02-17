@@ -20,7 +20,7 @@ Expressions
   ------|-------|
   col1	    |   ([col2]{t}+[col3]{t})	|
   col2	    |   ([col1]{t-1}+[col3]{t})	|
-  col3	    |   ([col3]{t-1}+1)	|
+  col3	    |   ([col3]{t-1}+{1})	|
 
 Output Data		
 -------------------------
