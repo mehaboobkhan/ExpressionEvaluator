@@ -68,8 +68,8 @@ public class Evaluator {
 		int endRow = 10;
 
 		Map<String, List<Double>> result = evaluate(expsMap, sortedOrder, dataMap, startRow, endRow);
-
-		//below is the eExpected Result
+		System.out.println(result);
+		//below is the Expected Result
 		/*{col2=[-6.0, 9.0, 14.0, 21.0, 30.0, 41.0, 54.0, 69.0, 86.0, 105.0], 
 		col3=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0], 
 		col1=[7.0, -11.0, 17.0, 25.0, 35.0, 47.0, 61.0, 77.0, 95.0, 115.0]}*/
