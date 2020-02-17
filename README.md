@@ -12,8 +12,7 @@ InputData:
   25	    |   21	|   4  |
   35	    |   30	|   5  |
 
-startRow = 5
-endRow = 10
+If first row is 0th index than current row i.e. startRow = 5. And endRow = 10 (9th index)
 
 Expressions	
 ---------------
