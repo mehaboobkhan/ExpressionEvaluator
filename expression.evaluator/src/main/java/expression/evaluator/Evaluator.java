@@ -14,7 +14,7 @@ public class Evaluator {
 			{
 				put("col1","([col2]{t}+[col3]{t})");
 				put("col2","([col1]{t-1}+[col3]{t})");
-				put("col3","([col3]{t-1}+1)");
+				put("col3","([col3]{t-1}+{1})");
 			}
 		};
 
